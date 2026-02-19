@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix Homepage</title>
+  <link rel="stylesheet" href="netflix.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <h1 class="logo">NETFLIX</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">TV Shows</a>
+      <a href="#">Movies</a>
+      <a href="#">New & Popular</a>
+      <a href="#">My List</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>STRANGER THINGS</h2>
+      <p>
+        When a young boy vanishes, a small town uncovers mysteries involving secret experiments.
+      </p>
+      <div class="hero-buttons">
+        <button class="play">Play</button>
+        <button class="info">More Info</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="row">
+    <h3>Trending Now</h3>
+    <div class="row-posters" id="trending"></div>
+  </section>
+
+  <section class="row">
+    <h3>Top Rated</h3>
+    <div class="row-posters" id="toprated"></div>
+  </section>
+
+  <section class="row">
+    <h3>Action Movies</h3>
+    <div class="row-posters" id="action"></div>
+  </section>
+
+  <section class="row">
+    <h3>Netflix Originals</h3>
+    <div class="row-posters large" id="originals"></div>
+  </section>
+
+  <script src="netflix.js"></script>
+</body>
+</html>
